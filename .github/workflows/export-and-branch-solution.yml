@@ -46,7 +46,7 @@ jobs:
       with:
         environment-url: ${{env.ENVIRONMENT_URL}}
         user-name: ${{env.USERNAME}}
-        password-secret: ${{ secrets.password }}
+        password-secret: Hod43132
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@v0
